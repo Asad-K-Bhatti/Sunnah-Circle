@@ -1,0 +1,69 @@
+/*
+#59C3C3 - Blue Green
+#29335C - Navy Blue
+#EBEBEB - Platinum (White)
+#F3A712 - Gold
+#772E25 - Brown
+*/
+
+/* Global Styles
+---------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /*box model fix ^^^ */
+  
+  body {
+    color: #29335C;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  .content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  
+  /* Header
+  ---------------------------------*/
+  .box {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+  }
+
+  .box .title {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+    text-align: center;
+    width: 80%;
+    color: #EBEBEB;
+  }
+
+  .box .text {
+      position: absolute;
+      z-index: 999;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      top: 80%;
+      text-align: left;
+      width: 80%;
+      color: #EBEBEB;
+  }
+  
+  /* Mission
+  ---------------------------------*/
+  
