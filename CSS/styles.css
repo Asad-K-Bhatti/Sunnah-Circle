@@ -27,43 +27,87 @@ html {
   }
   
   .content-wrap {
-    width: 900px;
     margin: 0 auto;
+    width: 80%;
     padding: 60px 0;
   }
   
-  /* Header
+  /* Navigation Bar
+  ---------------------------------*/
+  .navbar {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10000;
+  }
+  .navbar .homepage {
+    float: left;
+    color: #29335C;
+    margin-left: 10%;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar .pages {
+    float: right;
+    color: #29335C;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar .membership {
+    float: right;
+    color: #29335C;
+    margin-right: 10%;
+    background-color: #59C3C3;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a:hover {
+    background-color: #F3A712;
+    color: #EBEBEB;
+  }
+  .topnav a.active {
+    background-color: #F3A712;
+    color: #EBEBEB;
+  }
+
+  /* Home-Page
   ---------------------------------*/
   .box {
       position: relative;
       display: inline-block;
       width: 100%;
   }
-
   .box .title {
+      position: absolute;
+      z-index: 999;
+      margin: 0 30% 0 10%;
+      left: 0;
+      right: 0;
+      top: 20%;
+      bottom: 10px;
+      text-align: left;
+      color: #EBEBEB;
+      font-size: 64px;
+  }
+  .box .text {
     position: absolute;
     z-index: 999;
-    margin: 0 auto;
+    margin: 0 30% 0 10%;
     left: 0;
     right: 0;
-    top: 5%;
-    text-align: center;
-    width: 80%;
+    top: 50%;
+    text-align: left;
     color: #EBEBEB;
   }
 
-  .box .text {
-      position: absolute;
-      z-index: 999;
-      margin: 0 auto;
-      left: 0;
-      right: 0;
-      top: 80%;
-      text-align: left;
-      width: 80%;
-      color: #EBEBEB;
-  }
-  
   /* Mission
   ---------------------------------*/
   
