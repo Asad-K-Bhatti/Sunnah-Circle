@@ -31,7 +31,13 @@ body {
   width: 80%;
   padding: 60px 0;
 }
-  
+h1, h2, h3, h4 {
+  font-family: 'Roboto Mono', monospace;
+}
+a, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* Navigation Bar
 ---------------------------------*/
 .logo {
@@ -134,8 +140,8 @@ h4 {
   position: relative;
   display: inline-block;
   width: 100%;
-  background-color: #772E25;
-  color: #EBEBEB;
+  background-color: beige;
+  color: #29335C;
 }
 .textbox {
   padding: 1.5% 2%;
@@ -143,6 +149,8 @@ h4 {
   border-radius: 20px;
   margin: 2% 10%;
   font-size: 1.25em;
+  background-color: #59C3C3;
+  color: black;
 }
 .aboutbox h1 {
   padding: 0 10% 0 10%;
@@ -157,4 +165,29 @@ h4 {
   margin-top: -5px;
   padding-left: 0px;
   border-radius: 10px;
+}
+
+/* Footer Section
+---------------------------------*/
+footer {
+  background: #343434;
+  color: #f7fff7;
+}
+.contactbox {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-size: medium;
+  justify-content: left;
+  margin-top: 2%;
+}
+footer img {
+  float: left;
+  margin: 2% 5% 2% 30%;
+}
+.copyright {
+  text-align: center;
+  font-size: x-small;
+  padding-bottom: 2%;
+  margin-bottom: 0;
 }
