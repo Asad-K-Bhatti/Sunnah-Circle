@@ -34,6 +34,11 @@ body {
   
 /* Navigation Bar
 ---------------------------------*/
+.logo {
+  display: inline;
+  vertical-align: middle;
+  max-height: none;
+}
 .navbar {
   background-color: white;
   overflow: hidden;
@@ -44,28 +49,28 @@ body {
 }
 .navbar .homepage {
   float: left;
-  color: #29335C;
+  color: #59C3C3;
   margin-left: 10%;
   text-align: center;
   padding: 20px 24px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 .navbar .pages {
   float: right;
   color: #29335C;
   text-align: center;
-  padding: 20px 16px;
+  padding: 37.5px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 .navbar .membership {
   float: right;
-  color: #29335C;
+  color: #EBEBEB;
   margin-right: 10%;
   background-color: #59C3C3;
   text-align: center;
-  padding: 20px 16px;
+  padding: 37.5px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -118,10 +123,7 @@ body {
   width: 100%;
   background-color: #F3A712;
   color: #772E25;
-}
-.statementbox .title {
   text-align: center;
-  margin: 0px;
 }
 h4 {
   padding: 0 20% 0% 20%;
@@ -136,14 +138,23 @@ h4 {
   color: #EBEBEB;
 }
 .textbox {
-  padding: 0 10% 0 10%;
+  padding: 1.5% 2%;
   border: 2px solid black;
-  border-radius: 5px;
+  border-radius: 20px;
+  margin: 2% 10%;
+  font-size: 1.25em;
 }
-.aboutbox h3, .aboutbox h1 {
+.aboutbox h1 {
   padding: 0 10% 0 10%;
 }
 .aboutbox .text {
   padding: 0 10% 0 10%;
-  font-size: 20px;
+  font-size: 1.25em;
+}
+.aboutbox img {
+  float: left;
+  margin-right: 20px;
+  margin-top: -5px;
+  padding-left: 0px;
+  border-radius: 10px;
 }
