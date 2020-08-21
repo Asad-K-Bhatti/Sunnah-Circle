@@ -89,6 +89,51 @@ a, p {
   color: #EBEBEB;
 }
 
+/* Page-Nav-Bar
+---------------------------------*/
+.subbar {
+  background-color: #29335C;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 100%;
+  padding: 37.5px 16px;
+}
+.subbar a {
+  color: #F3A712;
+  text-align: center;
+  padding: 37.5px 13.7%;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+.subbar .pages {
+  float: right;
+  color: #29335C;
+  text-align: center;
+  padding: 37.5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.subbar .membership {
+  float: right;
+  color: #EBEBEB;
+  margin-right: 10%;
+  background-color: #59C3C3;
+  text-align: center;
+  padding: 37.5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.subbar a:hover {
+  background-color: #F3A712;
+  color: #EBEBEB;
+}
+.subbar a.active {
+  background-color: #F3A712;
+  color: #EBEBEB;
+}
+
 /* Home-Page
 ---------------------------------*/
 .box {
@@ -102,10 +147,10 @@ a, p {
   z-index: 999;
   left: 0;
   right: 0;
-  top: 40%;
+  top: 30%;
   bottom: 10px;
   text-align: center;
-  color: #F3A712;
+  color: #EBEBEB;
   font-size: 64px;
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
@@ -114,13 +159,13 @@ a, p {
   z-index: 999;
   left: 0;
   right: 0;
-  top: 60%;
+  top: 55%;
   text-align: center;
   color: black;
   font-size: xx-large;
 }
 
-/* About Section
+/* Body Section
 ---------------------------------*/
 .statementbox {
   margin: 0 auto;
@@ -130,36 +175,37 @@ a, p {
   background-color: #F3A712;
   color: #772E25;
   text-align: center;
+  padding: 0.5% 20%;
 }
 h4 {
   padding: 0 20% 0% 20%;
   font-size: 15px;
 }
-.aboutbox {
+.bodybox {
   margin-top: 0px;
   position: relative;
   display: inline-block;
   width: 100%;
-  background-color: beige;
+  background-color: #EBEBEB;
   color: #29335C;
 }
 .textbox {
   padding: 1.5% 2%;
-  border: 2px solid black;
+  border: 2px solid #F3A712;
   border-radius: 20px;
   margin: 2% 10%;
   font-size: 1.25em;
   background-color: #59C3C3;
-  color: black;
+  color: #29335C;
 }
-.aboutbox h1 {
+.bodybox h1 {
   padding: 0 10% 0 10%;
 }
-.aboutbox .text {
+.bodybox .text {
   padding: 0 10% 0 10%;
   font-size: 1.25em;
 }
-.aboutbox img {
+.bodybox img {
   float: left;
   margin-right: 20px;
   margin-top: auto;
