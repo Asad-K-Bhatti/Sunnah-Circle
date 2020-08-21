@@ -100,24 +100,24 @@ a, p {
 .box .title {
   position: absolute;
   z-index: 999;
-  margin: 0 30% 0 10%;
   left: 0;
   right: 0;
-  top: 20%;
+  top: 40%;
   bottom: 10px;
-  text-align: left;
-  color: #EBEBEB;
+  text-align: center;
+  color: #F3A712;
   font-size: 64px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 .box .text {
   position: absolute;
   z-index: 999;
-  margin: 0 30% 0 10%;
   left: 0;
   right: 0;
-  top: 50%;
-  text-align: left;
-  color: #EBEBEB;
+  top: 60%;
+  text-align: center;
+  color: black;
+  font-size: xx-large;
 }
 
 /* About Section
