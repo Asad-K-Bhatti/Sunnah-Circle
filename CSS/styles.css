@@ -166,7 +166,9 @@ h4 {
   padding-left: 0px;
   border-radius: 10px;
 }
-
+.aboutbox .col1 {
+  width: 30%;
+}
 /* Footer Section
 ---------------------------------*/
 footer {

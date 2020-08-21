@@ -206,11 +206,13 @@ h4 {
   font-size: 1.25em;
 }
 .bodybox img {
-  float: left;
-  margin-right: 20px;
+  margin-right: 0;
   margin-top: auto;
   padding-left: 0px;
   border-radius: 10px;
+}
+.bodybox .col1 {
+  width: 30%;
 }
 
 /* Footer Section
