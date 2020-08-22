@@ -13,40 +13,43 @@
         <!-- Navigation Bar -->
         <header class="navbar">
             <a href="../index.html" class="homepage"><img src="../Media/Main-Page/website-logo-small.png" width="60" height="60" class="logo"><b>  Sunnah Circle</b></a>
-            <a href="registration.html" class="membership"><b>Registration</b></a>
-            <a href="#home" class="pages"><b>Blog</b></a>
+            <a href="#home" class="membership"><b>Registration</b></a>
+            <a href="blog.html" class="pages"><b>Blog</b></a>
             <a href="services.html" class="pages"><b>Services</b></a>
             <a href="about.html" class="pages"><b>About Us</b></a>
         </header>
 
         <!-- Home Page -->
-        <div id="home" class="box">
-            <picture>
-                <source media="(min-width:600px)"
-                        srcset="../Media/Blog/blue-texture-320.jpg 320w,
-                                ../Media/Blog/blue-texture-480.jpg 480w,
-                                ../Media/Blog/blue-texture-720.jpg 720w,
-                                ../Media/Blog/blue-texture-960.jpg 960w,
-                                ../Media/Blog/blue-texture-1440.jpg 1440w,
-                                ../Media/Blog/blue-texture-1920.jpg 1920w">
-                                <!-- For computer displays -->
-                <source srcset="../Media/Blog/blue-texture-cropped-320.jpg 320w,
-                                ../Media/Blog/blue-texture-cropped-480.jpg 480w,
-                                ../Media/Blog/blue-texture-cropped-720.jpg 720w,
-                                ../Media/Blog/blue-texture-cropped-960.jpg 960w">
-                                <!-- for mobile devices -->
-                <img src="../Media/Blog/blue-texture-1920.jpg" alt="sunrise behind masjid"
-                width="100%">
-            </picture>
-            <h1 class="title">Blog</h1>
-            <h1 class="text">THE LATEST NEWS</h1>
-        </div>
-        
-        <div class="bodybox">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="home" class="bodybox">
             <div class="textbox">
-                <p>Coming Soon!</p>
+                <p>Notice: When signing up below you will recieve emails and updates on the latest programs and information relevant to you.</p>
             </div>
         </div>
+
+        <!-- Form -->
+        <form action="mailto:shaistamukhtar75@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+            <label for="name">Name</label><br>
+            <input id="name" type="text" size="19" name="ContactName"><br><br>
+            <label for="email">Email</label><br>
+            <input name="email" id="email" type="email" required placeholder="me@example.com">
+            <br><br>
+            <fieldset>
+                <legend>Programs to be notified about (Please Select):</legend>
+                <input id="gentlemen" name="checkboxlist" type="checkbox" value="Gentlemen">
+                <label for="gentlemen">Gentlemen</label>
+                <input id="ladies" name="checkboxlist" type="checkbox" value="Ladies">
+                <label for="ladies">Ladies</label>
+                <input id="children" name="checkboxlist" type="checkbox" value="Children">
+                <label for="children">Children</label>
+            </fieldset>
+            <br><br>
+            <button type="submit">Sign up</button>
+        </form>
+
         <!-- Footer -->
         <footer>
             <div class="contactbox">
